@@ -1,0 +1,19 @@
+{
+    "name": "NetSane",
+    "version": "1.0",
+    "description": "Keep the internet sane",
+    "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 2,
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
+}
